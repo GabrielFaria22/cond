@@ -3,7 +3,7 @@ module Api
 		class PeopleController < ApplicationController
 
       def index
-				people = Person.order('created_at DESC');
+				people = PersonSerializer.order('created_at DESC');
 				render json: {status: '200', message:'Pessoas carregadas', data:people},status: :ok
 			end
 		end

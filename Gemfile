@@ -29,6 +29,10 @@ gem 'tzinfo-data'
 
 gem 'faker'
 
+gem 'jsonapi-serializer'
+
+gem 'rack-cors'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
